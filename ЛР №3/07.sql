@@ -1,4 +1,5 @@
---7 Показать комбинированный список таблиц Person.EmailAddress, Person.BusinessEntityAddress по полям BusinessEntityID, rowguid, ModifiedDate, используя UNION.
+--7 Показать комбинированный список таблиц Person.EmailAddress, Person.BusinessEntityAddress
+-- по полям BusinessEntityID, rowguid, ModifiedDate, используя UNION.
 select  "BusinessEntityID"
 , "rowguid"
 , "ModifiedDate"
