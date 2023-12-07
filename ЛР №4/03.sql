@@ -12,3 +12,4 @@ AND "Name" is not null
      AND "Class" IS NOT NULL
      AND p."Style" = pr."Style"
      HAVING COUNT("Class") > 2);
+     

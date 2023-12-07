@@ -1,4 +1,5 @@
---2.Определить количество сотрудников и штат, в котором проживает минимальное число сотрудников (Представление Sales.vSalesPerson)
+--2.Определить количество сотрудников и штат, в котором проживает минимальное 
+--число сотрудников (Представление Sales.vSalesPerson)
 select  "StateProvinceName", COUNT("BusinessEntityID") AS "NumberEmployees"
 from "Sales"."vSalesPerson"
 group by "StateProvinceName"

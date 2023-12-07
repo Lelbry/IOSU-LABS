@@ -33,3 +33,4 @@ where "ListPrice" >
         where  
             p1."Style" = p2."Style"
    )
+   

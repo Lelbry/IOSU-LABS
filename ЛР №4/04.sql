@@ -18,3 +18,4 @@ where
             p1."Color" = p2."Color" 
             and p2."ListPrice" > 0
     );
+    
